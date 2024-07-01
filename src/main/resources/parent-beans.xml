@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--父容器配置-->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="parentHelloBean" class="com.jianguokotlinnut.helloworld.HelloBean2_6" >
+        <property name="name" value="PARENT"/>
+    </bean>
+
+    <bean id="helloBean" class="com.jianguokotlinnut.helloworld.HelloBean2_6" >
+        <property name="name" value="PARENT"/>
+    </bean>
+
+</beans>
+    
